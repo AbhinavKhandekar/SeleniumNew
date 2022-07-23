@@ -1,0 +1,26 @@
+package stepDefinationAmazone;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class stepDefinations_Amazone {
+	
+	
+	 @Given("^open chrome browser and open home page of amazone$")
+	    public void open_chrome_browser_and_open_home_page_of_amazone() throws Throwable {
+	      
+	    }
+
+	    @When("^user search \"([^\"]*)\" on search box$")
+	    public void user_search_something_on_search_box(String strArg1) throws Throwable {
+	        
+	    }
+
+	    @Then("^mobile option are seen on next page$")
+	    public void mobile_option_are_seen_on_next_page() throws Throwable {
+	        
+	    }
+
+
+}
